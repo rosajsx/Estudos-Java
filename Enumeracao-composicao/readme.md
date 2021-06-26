@@ -38,3 +38,15 @@ Por questões de design tais como organização, flexibilidade, reuso, delegaç�
 - Services -> Serviços
 - Repositories -> Objetos responsaveis por acessar um banco de dados ou repositório de dado qualquer.
 
+
+## Composição
+* É um tipo de associação que permite que um objeto contenha outro 
+* Relação "tem-um" ou "tem-vários"
+
+- Vantagens:
+   * Organização: divisão de responsabilidades
+   * Coesão -> Cada objeto é responsavel por uma unica coisa.
+   * Flexibilidade
+   * Reuso
+ 
+- Nota: Embora o símbolo UML para composição (todo-parte) seja o diamente preto, neste contexto estamos chamando de composição qualquer associação topo "tem-um" e "tem-varios".
