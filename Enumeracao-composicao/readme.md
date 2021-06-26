@@ -28,3 +28,13 @@ public enum OrderStatus {
 ```
 
 
+## Categorias de classes
+- Em um sistema orientado a objetos, de modo geral "tudo" é objeto. 
+  
+Por questões de design tais como organização, flexibilidade, reuso, delegação, etc. há varias categorias de classes:
+- Views -> Telas do sistema
+- Controllers -> Midleware entre a tela e o sistema
+- Entities -> Entidades de negócio de um sistema
+- Services -> Serviços
+- Repositories -> Objetos responsaveis por acessar um banco de dados ou repositório de dado qualquer.
+
